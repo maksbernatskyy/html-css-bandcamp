@@ -186,6 +186,15 @@ aside{
     margin: 1rem 0;
 }
 
+.logo-band{
+    margin-right: 4px;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-image: url('../img/logo-band.jpg');
+    background-size: contain;
+}
+
 
 
 
