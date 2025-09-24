@@ -181,6 +181,11 @@ aside{
     color: black;
 }
 
+.time{
+    display: inline-block;
+    margin: 1rem 0;
+}
+
 
 
 
