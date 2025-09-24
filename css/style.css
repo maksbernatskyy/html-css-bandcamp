@@ -9,9 +9,20 @@
 body{
     background-color: #222222;
     overflow: hidden;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .wrapper{
     height: 100vh;
+}
+
+/*FLEX*/
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*Generics*/
@@ -19,3 +30,34 @@ body{
 img{
     max-width: 100%;
 }
+
+header{
+    height: 112px;
+}
+
+/*Utilities*/
+
+.header-top{
+    padding: 1rem;
+}
+
+.search{
+    background-color: #464646;
+    padding: 8px;
+    border: 1px solid #464646;
+    border-radius: 6px;
+    color: white;
+    vertical-align: bottom;
+    margin-left: 1rem;
+}
+
+.a-header{
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
