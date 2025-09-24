@@ -38,7 +38,14 @@ header{
 /*Utilities*/
 
 .header-top{
-    padding: 1rem;
+    padding: 0.75rem;
+    height: 50%;
+}
+
+.header-bottom{
+    background-color: #2b2b2b;
+    padding: 0.75rem;
+    height: 50%;
 }
 
 .search{
@@ -49,6 +56,13 @@ header{
     color: white;
     vertical-align: bottom;
     margin-left: 1rem;
+}
+
+.search-genre{
+    background-color: #3c3c3c;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 8px;
 }
 
 .a-header{
