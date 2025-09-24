@@ -50,9 +50,31 @@ header{
     height: 50%;
 }
 
+.search-block-top{
+    position: relative;
+
+    i{
+        position: absolute;
+        left: 10%;
+        top: 26%;
+        color: #6a6a6a;
+    }
+}
+
+.search-block-bottom{
+    position: relative;
+
+    i{
+        position: absolute;
+        left: 1%;
+        top: 26%;
+        color: #6a6a6a;
+    }
+}
+
 .search{
     background-color: #464646;
-    padding: 8px;
+    padding: 8px 34px;
     border: 1px solid #464646;
     border-radius: 6px;
     color: white;
@@ -63,9 +85,9 @@ header{
 
 .search-genre{
     background-color: #3c3c3c;
-    border: 1px solid white;
+    border: 1px solid #6a6a6a;
     border-radius: 1rem;
-    padding: 8px;
+    padding: 8px 34px;
     width: 24rem;
 }
 
