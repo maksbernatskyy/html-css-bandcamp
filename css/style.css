@@ -44,6 +44,14 @@ header{
     height: 50%;
 }
 
+#logo-mobile{
+    display: none;
+}
+
+.glass{
+    display: none;
+}
+
 .header-bottom{
     background-color: #2b2b2b;
     padding: 0.75rem 2rem;
@@ -212,5 +220,45 @@ aside{
         .name-song{
             padding-left: 4px;
         }
+    }
+}
+
+/*Versione mobile 608px*/
+
+@media screen and (max-width: 608px){
+
+    .w-30{
+        display: none;
+    }
+
+    .w-70{
+        width: 100%;
+        border-right: none;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .search-genre{
+        width: 100%;
+    }
+
+    .search-block-top{
+        i{
+            display: none;
+        }
+    }
+
+    .glass{
+        display: inline-block;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #logo-mobile{
+        display: block;
     }
 }
