@@ -199,6 +199,18 @@ aside{
     background-size: contain;
 }
 
+/*RESPONSIVE*/
 
+/*Versione tablet 768px*/
 
+@media screen and (max-width: 768px){
+    .card{
+        width: calc(100% / 2);
+    }
 
+    .w-30{
+        .name-song{
+            padding-left: 4px;
+        }
+    }
+}
