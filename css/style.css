@@ -48,12 +48,23 @@ header{
         border-radius: 50%;
         height: 22px;
         width: 20px;
-        
+        display: none;
+
+        &:hover{
+            color: #464646;
+        }
+    }
+
         i{
             margin-left: -6px;
             vertical-align: top;
         }
-    }
+
+        &:hover{
+            .bg-start{
+                display: block;
+            }
+        }
 }
 
 /*Utilities*/
@@ -210,11 +221,19 @@ aside{
     margin: 8px 0;
     border-radius: 6px;
     color: white;
+
+    &:hover{
+        background-color: #3c3c3c;
+    }
 }
 
 .btn-white{
     background-color: white;
     color: black;
+
+    &:hover{
+        background-color: #f0ebeb;
+    }
 }
 
 .time{
