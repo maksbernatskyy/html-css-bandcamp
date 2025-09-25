@@ -151,6 +151,12 @@ header{
     line-height: 22px;
 }
 
+.card-top img{
+    &:hover{
+        border: none;
+    }
+}
+
 .genre{
     display: block;
     font-size: 0.75rem;
