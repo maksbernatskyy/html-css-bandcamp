@@ -63,6 +63,7 @@ header{
 
                 &:hover{
                      color: #464646;
+                     cursor: pointer;
                 }
             }
         }
@@ -210,6 +211,17 @@ aside{
     i{
         font-size: 3rem;
         margin-right: 4px;
+
+        &:hover{
+            color: #f0ebeb;
+            cursor: pointer;
+        }
+    }
+
+    .name-song{
+        &:hover{
+            text-decoration: underline;
+        }
     }
 }
 
