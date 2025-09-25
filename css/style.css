@@ -267,6 +267,10 @@ aside{
     background-size: contain;
 }
 
+.appear{
+    display: none;
+}
+
 /*RESPONSIVE*/
 
 /*Versione tablet 768px*/
@@ -280,6 +284,18 @@ aside{
         .name-song{
             padding-left: 4px;
         }
+    }
+
+    .appear{
+        display: inline;
+    }
+
+    .cancel{
+        display: none;
+    }
+
+    .start .name-song{
+        font-size: 0.90rem;
     }
 }
 
