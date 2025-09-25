@@ -50,9 +50,6 @@ header{
         width: 20px;
         display: none;
 
-        &:hover{
-            color: #464646;
-        }
     }
 
         i{
@@ -63,6 +60,10 @@ header{
         &:hover{
             .bg-start{
                 display: block;
+
+                &:hover{
+                     color: #464646;
+                }
             }
         }
 }
