@@ -35,6 +35,27 @@ header{
     height: 112px;
 }
 
+.card-top{
+    position: relative;
+
+    .bg-start{
+        position: absolute;
+        bottom: 25px;
+        left: 15px;
+        color: #222222;
+        font-size: 1.6rem;
+        background-color: white;
+        border-radius: 50%;
+        height: 22px;
+        width: 20px;
+
+        i{
+            margin-left: -6px;
+            vertical-align: top;
+        }
+    }
+}
+
 /*Utilities*/
 
 /*Header*/
@@ -103,10 +124,11 @@ header{
 .a-header{
     text-decoration: none;
     color: white;
-    margin: 0 1rem;
+    padding: 18px 12px;
 
     &:hover{
         text-decoration: underline;
+        background-color: #464646;
     }
 }
 
